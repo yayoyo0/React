@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.14.1
+version: v1.25.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -656,3 +656,7 @@ patch:
         patched: '2020-06-09T18:41:45.956Z'
     - react-scripts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
         patched: '2020-06-09T18:41:45.956Z'
+    - react-scripts > babel-jest > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2023-05-26T08:46:01.126Z'
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/preset-modules > @babel/plugin-proposal-unicode-property-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2023-05-26T08:46:01.126Z'
